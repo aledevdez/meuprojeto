@@ -1,0 +1,71 @@
+/*sendo aplicado a font ('Open Sans', sans-serif;) em todo conteudo da página exceto para a a tag h1 que possui sua fonte especifica*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center; /*centraliza o texto*/
+    margin: 0px;
+}
+
+
+#hero{
+   width: 592px;
+   /* margin auto Significa que o browser dará uma margem automática para todos os lados*/
+   /* margin 72px vai aplicar primeiro espaçamento de 72px da parte superior e depois 72px na parte inferior*/
+   /* (margin 0px, auto, 72px) vai zerar o espaçamento da parte superior, depois será feito o espaçamento auto nas laterais e em seguida espaçamento de 72px na parte inferior*/
+   margin: 0px auto 72px; 
+
+
+ 
+}
+
+#hero img{
+    margin-bottom: 72px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif; /*tipo de fonte*/
+    font-size: 49px; /*tamanho da fonte*/
+    line-height: 56px; /*A altura da linha é a distância vertical entre duas linhas de texto, medida a partir da linha de base de uma linha de texto até a linha de base da próxima */
+    font-weight: normal; /*aqui é o peso da fonte */
+    margin-bottom: 32px;
+}
+
+/*formatando apenas o span que esta dentro do h1*/
+h1 span {
+    font-weight: bold;
+    
+}
+
+
+/*formatando tanto a tag (span) e a tag (a) */
+span,a {
+    color: #FF9900;
+}
+
+p,#footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+
+
+/*vai aplicar espaçamento de 28px na parte esquerda do seletor (a) que tenha um anterior a ele outro seletor (a) */
+#footer a + a {
+    margin-left: 28px;
+ 
+}
+
+.line{
+    width: 568px;
+    border: solid 1px #7D7987;
+    margin: 0px auto 8px;
+    height: 0px;
+    
+}
+
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

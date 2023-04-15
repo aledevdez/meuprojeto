@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!-- Essa primeira instrução, define que estamos trabalhando com HTML5 -->
+
+<!-- HTML Considerado uma tag root ou uma tag raiz-->
+ <!-- lang é um (atributo) o que quer dizer linguagem e dentro dela vem o valor que pode ser definido a lingua ou seja pt-br, eng-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   <!--é uma relação de preconnect ou seja uma pré conexão -->
+
+    <!--A tag link faz referencia faz referencia ao css externo ou seja levando ao link de fontes css do google. Porem é necessário iniciar o CSS primeiro -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+    <!--O atributo rel vem de relationship serve para você dizer qual o relacionamento do arquivo que você quer utilizar -->
+    <!--"href" vem de referência, ele indica onde está o arquivo que você quer importar-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="hero">
+        <img src="imagens/images.jpg" alt="Desenho de uma pessoa vestindo uma camisa amarela e uma sala com móveis ">
+        <h1>Ambientes <span>únicos</span> para você!</h1>
+        <p>Nós criamos ambientes <span>exclusívos</span> e <span>únicos</span>, com muito bom gosto e profissionalismo, investimos tempo e <span>dedicação no seu projeto</span>
+        <br> <!--resposavel por  quebrar a linha-->
+        <br>
+        Tenha <span>ambientes limpos</span> e bem decorados, transmitindo <span>elegância</span> e <span>finesse</span> para todo aquele que estiver ali.</p>
+    </div>
+    
+    <div id="footer">
+        <div class="line"></div>
+
+        <!--target="_blank" responsável por abrir um novo link sem sair da página principal-->
+        <a target="_blank"  href="https://instagram.com.br">Instagram</a>
+
+        <a href="mailto:moveisparavoce@gmail.com">Fale conosco</a>
+
+    </div>
+
+    <img id="balls" src="imagens/balls-decoration.svg" alt="Bolinhas laranjadas no canto direito inferior da tela">
+    
+</body>
+</html>
